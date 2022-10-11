@@ -1,0 +1,254 @@
+/*********| /Сброс стилей\ |*********/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+a, button{text-decoration: none;border: none; cursor: pointer;}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+/*********| \Сброс стилей/ |*********/
+
+/*********| /header\ |*********/
+#header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #212020;
+	height: 72px;
+}
+h3, a, button{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+ul.tabs {
+	display: flex;
+	grid-gap: 58px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: white;
+}
+ul.tabs li{
+	cursor: pointer;
+}
+.btn-1 {
+	width: 149px;
+	height: 41px;
+	border-radius: 10px;
+	background: #558FFF;
+}
+/*********| \header/ |*********/
+
+/*********| /banner\ |*********/
+body {
+	background: #121212;
+}
+#banner {
+	display: block;
+	height: 855px;
+}
+h2 {
+	font-family: 'Montserrat';
+	color: white;
+}
+h4 {
+	display: block;
+	font-family: 'Montserrat';
+	font-weight: 800;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+#banner h4{
+	display: block;
+	padding-top: 118px;
+	font-family: 'Montserrat';
+	font-weight: 800;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+#banner img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+}
+/*********| \banner/ |*********/
+
+/*********| /why_us\ |*********/
+#why_us ul {
+	margin-top: 50px;
+  display: grid;
+  grid-gap: 33px 103px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 620px);
+}
+#why_us ul li {
+	width: 620px;
+	height: 245px;
+	background: #181818;
+	border-radius: 10px;
+}
+#why_us ul li h3 {
+	padding-top: 32px;
+	padding-left: 37px;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 39px;
+}
+#why_us ul li h2 {
+	width: 504px;
+	font-family: 'Montserrat';
+	padding-top: 39px;
+	padding-left: 39px;
+	font-weight: 500;
+	font-size: 24px;
+	color: white;
+	line-height: 29px;
+}
+/*********| \why_us/ |*********/
+
+/*********| /rate\ |*********/
+#rate h4 {
+	margin-top: 131px;
+}
+#rate h3.model {
+	margin-top: 14px;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+}
+#rate ul {
+	grid-gap: 21px;
+	margin-top: 27px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	grid-gap: 33px 103px;
+  	justify-content: center;
+  	grid-template-columns: repeat(auto-fill, 800px);
+}
+#rate ul li {
+	position: relative;
+	background: #181818;
+	border-radius: 10px;
+	height: 250px;
+	width: 800px;
+}
+#rate ul li h3.name {
+	margin-top: 30px;
+	margin-left: 85px;
+	text-align: left;
+}
+#rate ul li h2.description {
+	margin-top: 9px;
+	margin-left: 85px;
+	text-align: left;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+#rate ul li div {
+	display: flex;
+}
+#rate ul li div h3 {
+	margin-top: 32px;
+	margin-left: 85px;
+}
+#rate ul li div h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 32px;
+	margin-left: 33px;
+	font-weight: 500;
+	font-size: 20px;
+}
+#rate ul li .buy {
+	position: absolute;
+	height: 51px;
+	left: 85px;
+	bottom: 25px;
+	width: 185px;
+	border-radius: 20px;
+	font-weight: 700;
+	font-size: 24px;
+	background: #558FFF;
+}
+/*********| \rate/ |*********/
+
+/*********| /questions\ |*********/
+#questions {
+	margin-top: 145px;
+	height: 250px;
+	padding-bottom: 273px;
+}
+
+#questions h2 {
+	display: block;
+	width: 621px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+}
+#questions button {
+	display: block;
+	width: 225px;
+	margin-top: 28px;
+	height: 51px;
+	background: #558FFF;
+	border-radius: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+/*********| \questions/ |*********/
+
+/*********| /footer\ |*********/
+#footer {
+	padding-bottom: 74px;
+	display: grid;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	grid-gap: 100px;
+  	justify-content: center;
+  	grid-template-columns: repeat(3, auto);
+}
+#footer li {
+	display: grid;
+	grid-gap: 14px;
+	flex-direction: column;
+}
+#footer li div {
+	display: flex;
+	grid-gap: 14px;
+	align-items: center;
+}
+#footer li h4 {
+	font-weight: 800;
+	text-align: left;
+	font-size: 32px;
+	line-height: 39px;
+}
+#footer li a {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+}
+
+/*********| \footer/ |*********/
